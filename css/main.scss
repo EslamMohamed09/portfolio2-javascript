@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {margin:0;padding:0;
+   text-transform:capitalize;
+   text-decoration:none !important;
+   outline:none !important;
+   list-style:none;
+   transition:all .2s linear;
+   font-family:'Poppins',sans-serif;
+   scroll-behavior:smooth;}
+
+.container {margin:0 auto;}
+
+
+:root {--light-bg:#1a1a1a;
+       --light-color:#aaa;
+       --white:#fff;
+       --primary-color:rgb(220, 20, 60);
+       --primary-color2:rgb(155, 5, 5);
+       --primary-color5:#000;
+       --box-shadow:0 0.5rem 1rem rgba(0,0,0,0.7);
+       --box-shadow2:0 .5rem 1.5rem #0d2e2e23;
+       --box-shadow3:0 .3rem 4rem #252c2c2f;
+       --box-shadow4:0 0 4px #000;
+       --box-shadow5:0 0 3px #eee;
+
+       --text-shadow:0 0 5px rgb(5, 5, 5);
+       --text-shadow2:0 0 4px #fff;}
+
+body {overflow-x:hidden;}
+
+html {font-size:62.5%;}
+
+::-webkit-scrollbar {width:8px;}
+
+::-webkit-scrollbar-track {background:#000;}     
+
+::-webkit-scrollbar-thumb {background-image:linear-gradient(125deg, #29067a 0%, #fb3c7f 100%);
+                           border-radius:10px;}
+
+*::selection {background:#754501;
+              color:var(--white);}
+
+
+section {min-height:100vh;
+         width:100%;
+         padding:3rem 18rem;
+         position:absolute;
+         left:0;
+         top:0;}
+
+.section {transform:translateY(-100%) scale(0);
+          transition:all 0.4s ease-in-out;
+          background-color:var(--primary-color);}
+
+.sec1 {display:none;
+       transform:translateY(0) scale(1);}
+
+.sec2 {display:none;
+       transform:translateY(0) scale(1);}
+
+.sec3 {display:none;
+       transform:translateY(0) scale(1);}
+
+.sec4 {display:none;
+       transform:translateY(0) scale(1);}
+
+.sec5 {display:none;
+       transform:translateY(0) scale(1);}
+
+/*++++++++++++++++++++++++
+  # Controls
++++++++++++++++++++++++++*/
+.controlls {position:fixed;
+            top:50%;
+            right:3%;
+            transform:translateY(-50%);
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            z-index:10;
+            .control {color:red;}
+}
+
+
+
+
+
+
+
+
+
+/************************ 
+  # Header 
+************************/
+
+
+
+/************************ 
+  # Home
+*************************/
+
+
+
+
+/************************
+  # About
+************************/
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+
+   html {font-size:55%;}
+
+}
+
+
+@media (max-width:450px) {
+
+  html {font-size:50%;}
+
+}
+
+
+
+
+
